@@ -5,7 +5,7 @@
 @implementation GamePlayScene
 
 - (void)initialize
-{
+{   timeSinceObstacle = 0.0f;
     [self addObstacle];
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
